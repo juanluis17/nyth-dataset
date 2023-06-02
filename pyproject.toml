@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=57.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyth_dataset"
+version = "0.0.1"
+authors = [
+    { name = 'Juan-Luis García-Mendoza', email = 'jluisgm90@gmail.com' },
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/juanluis17/nyth-dataset"
+"Bug Tracker" = "https://github.com/juanluis17/nyth-dataset/issues"
